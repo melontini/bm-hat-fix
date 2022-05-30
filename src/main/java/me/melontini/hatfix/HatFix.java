@@ -8,6 +8,6 @@ public class HatFix implements ModInitializer {
      */
     @Override
     public void onInitialize() {
-        System.out.println("Hat Should Now Work");
+        System.out.println("Hats Should Now Work");
     }
 }
