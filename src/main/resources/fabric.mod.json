@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bmhatfix",
+  "version": "${version}",
+
+  "name": "Cosmetic Hat Fix",
+  "description": "",
+  "authors": [
+    "Melontini"
+  ],
+  "contact": {
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.melontini.hatfix.HatFix"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x",
+    "biomemakeover": "*",
+    "cosmetic-armor": "*"
+  }
+}
